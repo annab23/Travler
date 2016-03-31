@@ -1,0 +1,57 @@
+/* font's family */
+$family-arial: 'Arial', sans-serif;
+$family-roboto: 'Roboto', sans-serif;
+$family-PT-sans: 'PT Sans', sans-serif;
+
+/* font's size */
+$p: 14px;
+$h1: 40px;
+$h2: 36px;
+$h2-xs: 20px;
+$h3: 30px;
+$h4: 24px;
+$h5: 18px;
+$h6: 12px;
+$after-plus: 22px;
+$block-title: 36px;
+$footer-font-size: 12px;
+$footer-font-size-xs-screen: 14px;
+
+/* font's colors */
+$white-text-color: #fff;
+$grey-text-color: #7b7b7b;
+$block-team-title: #717171;
+$header-menu-item: #717171;
+$team-caption: #7b7b7b;
+$purple-text-color: #701dbb;
+$block-title-h3-color: #252525;
+
+/* border's color */
+$persone-border: 5px solid #fff;
+$footer-border-color: #914dcf;
+
+/* navigation's buttons */
+$xs-screen-menu-button: #8f33c4;
+$owl-page-points: #8f33c4;
+
+/* background's colors */
+$background-grey: #ebebeb;
+$block-background-dark-grey: #2d2d2d;
+$block-background-darker: #222;
+$slider-sign: #451a4a;
+
+/* media queries */
+$desktop-width: 1200px;
+$tablet-width: 992px;
+$small-width: 769px;
+$xs-width: 449px;
+$lg-container-width: 960px;
+
+/* additional media query */
+$breakpoint-tablet: 948px;
+$breakpoint-xs-screen: 320px;
+
+
+$text-shadow: 0.5px 0.866px 0 #fff;
+
+$get-path-to-assets : "../image/";
