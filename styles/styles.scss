@@ -803,13 +803,15 @@ figure.map {
 }
 .full-width-box {
     display: block;
-    width: 100%;
     clear: both;
+    margin-bottom: 35px;
+    width: 100%;
 }
 
 /* footer */
 footer {
     padding: 25px 0 100px 0;
+    background: #373737;
     border-top: 4px solid $footer-border-color;
     @include xs-screen {
         padding: 15px 0;
@@ -826,9 +828,6 @@ footer {
             padding-left: 4%;
             text-shadow: none;
         }
-    }
-    .add-footer {
-        padding-top: 15px;
     }
     @include xs-screen {
         width: 100%;
@@ -856,7 +855,7 @@ footer {
         li {
             display: inline;
             .menu-item {
-                padding: 0 20px;
+                padding: 0 15px;
                 border-right: 1px solid grey;
                 font-size: $footer-font-size;
                 letter-spacing: 0.5px;
@@ -879,7 +878,6 @@ footer {
             }
             &:last-child {
                 .menu-item {
-                    padding-right: 0;
                     border-right: none;
                 }
             }
@@ -907,6 +905,9 @@ ul.social-list {
         }
         @include xs-screen {
             padding: 0 0 0 7px;
+            &:first-child {
+                padding: 0;
+            }
         }
     }
 }
@@ -931,15 +932,15 @@ ul.social-list {
 }
 .footer-info_add {
     display: block;
-    overflow: hidden;
     padding-top: 15px;
-    width: 100%;
     p {
-        margin: 0;
+        margin: 165px 0 0 0;
+        width: 80%;
         line-height: 18px;
-        font-size: $h6;
+        font-size: 11px;
         color: #7e7e7e;
         @include xs-screen {
+            width: 100%;
                 font-size: $footer-font-size-xs-screen;
         }
     }

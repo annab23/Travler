@@ -1216,12 +1216,14 @@ figure.map {
 
 .full-width-box {
   display: block;
-  width: 100%;
-  clear: both; }
+  clear: both;
+  margin-bottom: 35px;
+  width: 100%; }
 
 /* footer */
 footer {
   padding: 25px 0 100px 0;
+  background: #373737;
   border-top: 4px solid #914dcf; }
   @media (max-width: 768px) {
     footer {
@@ -1237,8 +1239,6 @@ footer {
     .footer-info .logo h6 {
       padding-left: 4%;
       text-shadow: none; }
-  .footer-info .add-footer {
-    padding-top: 15px; }
   @media (max-width: 768px) {
     .footer-info {
       width: 100%; } }
@@ -1264,7 +1264,7 @@ footer {
 .menu-bottom li, .menu_add-list li {
   display: inline; }
   .menu-bottom li .menu-item, .menu_add-list li .menu-item {
-    padding: 0 20px;
+    padding: 0 15px;
     border-right: 1px solid grey;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -1284,7 +1284,6 @@ footer {
       border-bottom: 4px solid #914dcf;
       cursor: pointer; }
   .menu-bottom li:last-child .menu-item, .menu_add-list li:last-child .menu-item {
-    padding-right: 0;
     border-right: none; }
 
 ul.social-list {
@@ -1305,7 +1304,9 @@ ul.social-list {
       font-size: 10px; }
     @media (max-width: 768px) {
       ul.social-list li {
-        padding: 0 0 0 7px; } }
+        padding: 0 0 0 7px; }
+        ul.social-list li:first-child {
+          padding: 0; } }
 
 .menu_add-list {
   margin-top: 30px;
@@ -1325,16 +1326,16 @@ ul.social-list {
 
 .footer-info_add {
   display: block;
-  overflow: hidden;
-  padding-top: 15px;
-  width: 100%; }
+  padding-top: 15px; }
   .footer-info_add p {
-    margin: 0;
+    margin: 165px 0 0 0;
+    width: 80%;
     line-height: 18px;
-    font-size: 12px;
+    font-size: 11px;
     color: #7e7e7e; }
     @media (max-width: 768px) {
       .footer-info_add p {
+        width: 100%;
         font-size: 14px; } }
 
 /*# sourceMappingURL=styles.css.map */
